@@ -121,12 +121,10 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     /* 动画的名字 */
     animation-name: change;
     /* 动画持续时间 */
-    animation-duration: 2.7s;
+    animation-duration: 3s;
     /* 无限次播放动画 永远对你心动 */
     animation-iteration-count: infinite;
     cursor: pointer;
-
-
   }
 /* 画爱心桃 */
 .heart::before {
@@ -137,7 +135,6 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     background-color: pink;
     position: absolute;
     transform: translateX(-25px);
-
 }
 .heart::after {
     content: '';
@@ -148,7 +145,7 @@ background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
     position: absolute;
     transform: translateY(-25px);
 }
-/* 中间的字体样式有点丑  调一下 */
+/* 字体调一下 */
 .text {
     color: #7D6E83;
     margin-top: 45px;
